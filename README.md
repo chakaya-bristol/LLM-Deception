@@ -25,23 +25,6 @@ Model outputs are then analysed for accuracy, abstention, confidence calibration
 
 ---
 
-## Dataset
-
-The data comes from the **PubHealth** dataset introduced by Kotonya & Toni (2020), which contains around 11,000 fact-checked public health claims with:
-
-- a veracity label (`true`, `false`, `mixture`, `unproven`), and  
-- a gold-standard, journalist-written explanation for each claim.
-
-In this project, the TSV files are used to:
-
-- sample claims for each experiment condition,
-- build prompts for the LLM, and
-- compare model predictions with the gold labels and explanations.
-
-See `data/README.md` for more detail on the dataset and file layout.
-
----
-
 ## Repository structure
 
 - `data/`  
